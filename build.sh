@@ -1,0 +1,33 @@
+#!/bin/sh
+./configure \
+	--disable-debug  \
+	--disable-openmax   \
+	--disable-joystick  \
+	--disable-xrandr \
+	--disable-rsxs \
+   	--disable-projectm \
+	 --disable-ssh   \
+	 --disable-rtmp \
+	--disable-samba \
+	--disable-nfs    \
+	--disable-afpclient \
+	--disable-airplay  \
+	--disable-airtunes \
+	--disable-dvdcss \
+	--disable-mid \
+	 --disable-hal  \
+	--disable-non-free \
+	--disable-asap-codec  \
+	 --disable-mysql  \
+	--disable-optical-drive \
+	--disable-libbluray  \
+	--disable-texturepacker \
+	--disable-libusb \
+	 --disable-udev  \
+	--disable-libusb \
+	--disable-libcec  \
+	--disable-libvorbisenc \
+	--disable-libcap   \
+	--disable-gtest  \
+	--enable-airplay \
+	--enable-airtunes  
